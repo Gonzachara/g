@@ -1,0 +1,108 @@
+::-moz-selection {
+  background: #70C8BE;
+}
+::selection {
+  background: #70C8BE;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+	color: #F8CC1B;
+  transition: 0.2s ease-in;
+}
+
+/* --- button theme --- */
+.btn-theme {
+  border-radius: 23px;
+  background: #70C8BE;
+  transition: 0.2s ease-in;
+
+}
+
+.btn-theme:hover,
+.btn-theme:active,
+.btn-theme.active,
+.btn-theme.disabled,
+.btn-theme[disabled] {
+  background: #16998a;
+  transition: 0.2s ease-out;
+
+}
+
+.scrollup {
+ background-color: #D96D2C;
+}
+
+/* fontawesome icons */
+[class^="icon-"].active,
+[class*=" icon-"].active {
+    background-color: #5C9F24;
+}
+
+
+ul.nav li.current {
+  color: #F8CC1B;
+  transition: 0.2s ease-in;
+  border-bottom: 1px transparent #F8CC1B;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:active,
+.navbar .nav > li.active > a {
+    color: #F8CC1B !important;
+    border-bottom: 1px solid #F8CC1B;
+    transition: 0.4s ease-out;
+    
+}
+
+.sy-pager li.sy-active a {
+  background-color: #5C9F24;
+}
+
+.navbar .nav > li > a:hover {
+  color: #5C9F24;
+}
+
+input:focus {
+	border: 1px solid #5C9F24;
+	border-width:1px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #5C9F24;
+}
+
+
+/* tab */
+
+.nav-tabs > a {
+	color:#5C9F24;
+}
+
+
+/* accordion */
+.accordion-heading a:hover {
+	color: #5C9F24;
+}
+.accordion-heading .active{
+	color: #5C9F24;
+}
+
